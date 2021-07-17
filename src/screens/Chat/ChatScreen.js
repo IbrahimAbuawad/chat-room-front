@@ -20,7 +20,7 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('')
     const [messages, setMessages] = useState([])
 
-    const ENDPOINT = 'https://abdallah-chat-room-backend.herokuapp.com/'
+    const ENDPOINT = 'https://abdallah-ibrahim-chat-room.herokuapp.com'
 
     useEffect(() => {
         const { username, room } = queryString.parse(location.search)
